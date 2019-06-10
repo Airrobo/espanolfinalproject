@@ -34,43 +34,6 @@ body {
 	line-height: 1;
 }
 
-path {
-    stroke: #fff;
-    fill: #fff;
-    stroke-dasharray: 3000;
-    opacity: 10;
-    animation: animate 10s;
-
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-    
-        stroke-dashoffset: 30000;
-
-    }
-    30% {
-        opacity: 10;
-        
-        stroke-dashoffset:30000;
-
-    }
-    90% {
-        opacity: 10;
-   
-        stroke-dashoffset:30000;
-
-    }
-    100% {
-        opacity: 10;
-        
-        stroke-dashoffset:0;
-
-    }
-
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -109,6 +72,16 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/*/ SVG stuff*/
+
+
+
+
+	
+
+
+
+
 
 /* Basic */
 
